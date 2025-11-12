@@ -8,7 +8,6 @@ from models import *
 
 if __name__ == '__main__':
 
-    # --- 여기부터 모든 코드를 들여쓰기 합니다 ---
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Using device: {device}")
 
